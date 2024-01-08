@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            background-color: rgba(153, 50, 204, 0.425);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 a{
+            color: red;
+            text-decoration: none;
+        }
+
+        .form{
+            background-color: #fff;
+            padding: 50px 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+        }
+        .form a{
+            color: #000000;
+        }
+        p a{
+            text-decoration: none;
+        }
+        p a:hover{
+            text-decoration: underline;
+            opacity: 0.4;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+        input{
+            width: 300px;
+            padding: 10px 20px;
+            border: 1px solid #000000;
+            border-radius: 8px;
+            background-color: none;
+        }
+        .forgot{
+            transform: translate(-105px);
+        }
+        .forgot a{
+            text-decoration: none;
+        } 
+        .forgot a:hover{
+            text-decoration: underline;
+        }
+        button{
+            width: 350px;
+            padding: 10px 20px;
+            border: 1px solid #ff0000;
+            border-radius: 8px;
+            background-color: #ff0000;
+        }
+        button:hover{
+            background-color: #a30000;
+        }
+        button a{
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+        <div class="form">
+        <h1><a href="index.html">CNN</a></h1>
+        <h2>Log in to your CNN account</h2>
+        <p>Don't have an account? <a href="signup.html">Sign up.</a></p>
+        <form>
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <div class="forgot"><a href="signup.html">Forgot password?</a></div>
+            <button><a href="index.html">Sign in</a></button>
+        </form>
+    </div>
+</body>
+</html>
